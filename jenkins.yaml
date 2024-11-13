@@ -1,0 +1,2022 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - usernamePassword:
+          id: "tfssys"
+          password: "{AQAAABAAAAAQ05uU+uujV9zUFbYFuEOxIa+isfR4VT4h18BkkRDB4zo=}"
+          scope: GLOBAL
+          username: "depbblhps2-sys10"
+          usernameSecret: true
+      - usernamePassword:
+          id: "tfssysrw"
+          password: "{AQAAABAAAAAQG3jI3E5X6KWRxBX5xg9hOJ7GnYk144eP3ebXLA9AbRk=}"
+          scope: GLOBAL
+          username: "depbblhps2-sys7"
+          usernameSecret: true
+      - usernamePassword:
+          id: "40f6c3c8-afa2-4916-b431-76484275f3df"
+          password: "{AQAAABAAAAAQkqZ86BReQqhTAE0oLwcvkHCuWRv2PUqyxHl8uhc1Bdg=}"
+          scope: GLOBAL
+          username: "tfssys"
+          usernameSecret: true
+      - usernamePassword:
+          description: "TFS RestAPI token (for user dep05191 - Thomas Buchholtz with\
+            \ all privileges)"
+          id: "TFSAPI"
+          password: "{AQAAABAAAABAOqmOCNl+inWIr7SahYQg74OQw9uUfu841jH/jhM91rv0RDq/eec/ah5UgzOZdLoumg4YSHhR3Lv5IXfktGUIb68SutiykR5OyVkNrwaINO4=}"
+          scope: GLOBAL
+          username: "dep05191"
+          usernameSecret: true
+      - usernamePassword:
+          description: "Special user for pull request checker (Passwort is token:guid)"
+          id: "pullrequestuser"
+          password: "{AQAAABAAAABgjHrHO3Nr9jBURyfoSEsmOheVsXwEkOwmSxilMTeGUCR/zLECCRBNOoYFyKtiNkwKPPUNE9zEevMHQpI5zA780KFqKKopYN95WVs4pTMDXpM1dgQcnMv/pBftmE3V7Us5isnB8xgqS7IpgZizd6Y1zw==}"
+          scope: GLOBAL
+          username: "320079254"
+          usernameSecret: true
+      - basicSSHUserPrivateKey:
+          description: "SSH Key for tfssys user"
+          id: "tfssys_ssh"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "tfssys"
+      - file:
+          description: "Vigiles API key file of user bbn.oss.team@philips.com"
+          fileName: "linuxlink_key"
+          id: "vigiles-keyfile"
+          scope: GLOBAL
+          secretBytes: "{ImJmTH39/qkH3g5yOSd5rNPJJQ5zHHa/Iw1RprGjsr6Cm38zlo0xF1JQbzTdYTVJZ2D29AWDWAD/bFLlX0Tv+LtWS4ITajTXnsvU7wzeBbbFUv2Jb1ATwX4J74lUC0YjeNMqwIYwANdHF+Yq9QBHNKSNz9QRhCChbujl/1IzreuciVhddx6ZDiw9qc2Zg/4x}"
+      - basicSSHUserPrivateKey:
+          description: "BBN OSS Team SSH (CODE1)"
+          id: "ossteam_ssh"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "320175313"
+      - string:
+          description: "Build token for Monitor/Submitt_OSS build"
+          id: "SubmitOSSToken"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwTDsTxFaZSepSWyE8a/2Vzzx8xznE142bkVL/CFzSZIG2ZZFEU/WxzNO+AmxlON6nO0IkKpv0D4p7n3Ca/pnGdw==}"
+      - usernamePassword:
+          description: "User in webtool for submit module (used e.g. in OSS submit)"
+          id: "SubmitWebtool"
+          password: "{AQAAABAAAAAQnRTJgc76+LKwUMKqKatbNuZv0lL62juzpbuM/TXigvU=}"
+          scope: GLOBAL
+          username: "gensubmit"
+          usernameSecret: true
+      - usernamePassword:
+          description: "Restapi user for the coverity EMEA-Server"
+          id: "COV_EMEA_RESTAPI"
+          password: "{AQAAABAAAAAQUmrXrYLv+finduRpo5Robs9ooM9eevsON3QkFGnBo5M=}"
+          scope: GLOBAL
+          username: "bbnrestapi"
+          usernameSecret: true
+      - file:
+          description: "Access key file for the bbncommit user to the EMEA Coverity\
+            \ server"
+          fileName: "cov1.txt"
+          id: "COVERITY_EMEA_COMMIT_KEY"
+          scope: GLOBAL
+          secretBytes: "{0gvBPmh3dTUHTnVxet6fRtlJK9SBXKUbS4y8TmqloVkS67xSXA+Pso7Wdk5rcbF6G7RnSbozTYsUi4uIslBMA+WYY2tN7tjLUD9b9BNuHJFqk9M58+qzplpDYfIbIQ0AwgqB1nBlix75Wgk3qNZfxwLQTwovAoxTj3VPBIoWNQRqbPXO1/uiyQsgrTRteh/lEzb0MqEUgZhm6CNJoJ6G6O9THH1rmEz6h0L2hKHpJ9ujZ1NG5Q/lws6nJSu/4boaTe2QqBtm288caGU4/odS1ZRL4k6t0yuZzS+9OiIgM5TqAFNfcAVRBvRkVgyyH4Xxa7coKaemkao1BNr1ZbCPGTN1ZyfPl4M3PukoMJAHG0aDkNAgbeTYoTGA4gHD86eTHiSLnl6CWhmSj6XwmFJUZnUiFtTaTKBA23s5joeeYOUSkebNlz0gp/4N288OZ6Mv}"
+      - usernamePassword:
+          description: "Restapi user for the coverity BBN-Server"
+          id: "COV_BBN_RESTAPI"
+          password: "{AQAAABAAAAAQQZK/gBrKzkNfXdS7A1jarwlvFG3+wgjjL7BXinp8DK8=}"
+          scope: GLOBAL
+          username: "bbn-restapiuser"
+      - basicSSHUserPrivateKey:
+          id: "sdnbuild_ssh"
+          privateKeySource:
+            directEntry:
+              privateKey: "{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}"
+          scope: GLOBAL
+          username: "fabigott"
+      - usernamePassword:
+          id: "463a0dd0-89ea-4b43-a67e-200dc74340d6"
+          password: "{AQAAABAAAAAQuCCrvbKKrHoS8Pa3CQK3DQcMuVWp6QqNgXBhuzVsXhc=}"
+          scope: GLOBAL
+          username: "320165634"
+      - usernamePassword:
+          id: "RELEASE_UPLOAD_USER"
+          password: "{AQAAABAAAABQGBdtQfnxEz9osO58gwO06/ZwhZvTIYdLSzdhtWWM+/uRca8EnkYZYHZD94OqE0lS/wKp+cAsrqkkUr/ikDHIwaOLg2qm9z/5iS2R8UK7edHU7nO3V95DCmjXp7ckPhNE}"
+          scope: GLOBAL
+          username: "depbblhps2-sys10"
+      - file:
+          description: "Coverity Authentication Key file for tfssys/depbblhps2-sys10\
+            \ for covemea1.ta.philips.com"
+          fileName: "cov-auth-key.txt"
+          id: "TFSSYS_COV_EMEA_AUTH_KEY"
+          scope: GLOBAL
+          secretBytes: "{r2/vYMtSEiYHk5VO76IsRfrVhlSmjXH8ZypFHyvkbopSko/WnFvoRmecRrnqozYpNNtGFY1MuEpG2emfZBDbmt2GtHDx7b43lEpn5w3X6BFOxGAAhwV7IlrFwwztiWH8DnSok9ksTMrMTsJZfRDXyA7+84E8lC8CNp8dI9hSX7xVnIFikHLp+eayTi7SBWvExpqfbB4Nhq71vd2Dv+02geJi9Pkw20XOnniFwzC8qOISspIeyk4dn4sWZlr2tSF82LqgPm3AX9nAq0fXyUnLHDpKUSOTeLXQkSYdw/LJR3y5YitI4F1MOvP/QEajB20mgFE0fTFC1wy3gcLAMr9ha0GqyDno7LoXjsW+2T7hnBF+csDvt+2jDF9IaqP+2h8JRSZNjUFdqJ5luBwUrT+dElOXqMWDsVoc39x8wu/Pd8iqxMGYUFRyRLM4a/hCyDJKFJ3jkxJuAytmRBetcqahsGFfRQn7XVtw8/QB78WjsQCDJkdcPtYqOgT6crDPdSUH}"
+      - usernamePassword:
+          description: "Lese und Schreibrechte auf dem Webtool"
+          id: "webtool"
+          password: "{AQAAABAAAAAQJzDz4EdTbokO/bxA5jM3lO7o5s5Q99d0bs9XrIjBRKE=}"
+          scope: GLOBAL
+          username: "webtool"
+      - usernamePassword:
+          description: "tfsuser which can change permissions"
+          id: "sys26"
+          password: "{AQAAABAAAAAQQI1kE/xJh0uJTGM5UpvFghXXZq7zxxzsXgCeY29yz34=}"
+          scope: GLOBAL
+          username: "depbblhps2-sys26"
+jenkins:
+  agentProtocols:
+  - "JNLP4-connect"
+  - "Ping"
+  
+  authorizationStrategy:
+    projectMatrix:
+      entries:
+      - group:
+          name: "authenticated"
+          permissions:
+          - "Credentials/View"
+          - "Job/Build"
+          - "Job/Discover"
+          - "Job/Read"
+          - "Overall/Read"
+          - "Run/Update"
+          - "View/Read"
+      - user:
+          name: "anonymous"
+          permissions:
+          - "Credentials/View"
+          - "Job/Build"
+          - "Job/Read"
+          - "Overall/Read"
+          - "Run/Update"
+      - user:
+          name: "felix.ruess"
+          permissions:
+          - "Agent/Build"
+          - "Agent/Configure"
+          - "Agent/Create"
+          - "Agent/Delete"
+          - "Agent/Disconnect"
+          - "Overall/Read"
+          - "View/Read"
+      - user:
+          name: "guido.sanchez"
+          permissions:
+          - "Agent/Build"
+          - "Agent/Configure"
+          - "Agent/Create"
+          - "Agent/Delete"
+          - "Agent/Disconnect"
+          - "Overall/Read"
+      - user:
+          name: "jhaller"
+          permissions:
+          - "Agent/Build"
+          - "Agent/Configure"
+          - "Agent/Connect"
+          - "Agent/Create"
+          - "Agent/Delete"
+          - "Agent/Disconnect"
+          - "Overall/Read"
+      - user:
+          name: "mohammed.rizwan"
+          permissions:
+          - "Overall/Read"
+      - user:
+          name: "ntabassu"
+          permissions:
+          - "Credentials/View"
+          - "Job/Read"
+          - "Overall/Administer"
+          - "Overall/Read"
+          - "View/Read"
+      - user:
+          name: "seschall"
+          permissions:
+          - "Overall/Administer"
+      - user:
+          name: "shifaali"
+          permissions:
+          - "Overall/Administer"
+      - user:
+          name: "test"
+          permissions:
+          - "Job/Configure"
+          - "Job/Create"
+          - "Job/Delete"
+          - "Job/Read"
+      - user:
+          name: "tschaedl"
+          permissions:
+          - "Overall/Administer"
+      - user:
+          name: "ukuppusa"
+          permissions:
+          - "Agent/Build"
+          - "Agent/Configure"
+          - "Agent/Connect"
+          - "Agent/Create"
+          - "Agent/Delete"
+          - "Agent/Disconnect"
+          - "Overall/Read"
+      - user:
+          name: "vivekv"
+          permissions:
+          - "Agent/Build"
+          - "Agent/Configure"
+          - "Agent/Connect"
+          - "Agent/Create"
+          - "Agent/Delete"
+          - "Agent/Disconnect"
+          - "Credentials/Create"
+          - "Credentials/Update"
+          - "Credentials/View"
+          - "Job/Build"
+          - "Job/Cancel"
+          - "Job/Configure"
+          - "Job/Create"
+          - "Job/Delete"
+          - "Job/Move"
+          - "Job/Read"
+          - "Overall/Read"
+          - "Run/Update"
+          - "View/Read"
+      - user:
+          name: "womarkus"
+          permissions:
+          - "Overall/Administer"
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: true
+  disableRememberMe: false
+  disabledAdministrativeMonitors:
+  - "hudson.node_monitors.MonitorMarkedNodeOffline"
+  - "jenkins.security.QueueItemAuthenticatorMonitor"
+  - "hudson.diagnosis.ReverseProxySetupMonitor"
+  labelAtoms:
+  - name: "FBrights"
+  - name: "MeasBLR_Simulator"
+  - name: "__coverity"
+  - name: "_coverity"
+  - name: "_ossprbuild"
+  - name: "ansible"
+  - name: "bbl2xb04"
+  - name: "bbl2xb04_AzureDevops"
+  - name: "bbl2xb05"
+  - name: "bbl2xbm1"
+  - name: "bbl2xbm2"
+  - name: "bbl2xbm2_ramdisk"
+  - name: "bbl2xbm3"
+  - name: "bbl2xeno"
+  - name: "bbl2xmen"
+  - name: "bbl2xpe1"
+  - name: "bbl2xr02"
+  - name: "bbl2xr06"
+  - name: "bbl2xr07"
+  - name: "bbl2xr08"
+  - name: "bbl2xr09"
+  - name: "bbl2xr09_tfssysrw"
+  - name: "bbl2xr65"
+  - name: "bbl2xr65_tfssysrw"
+  - name: "bbl2xr83"
+  - name: "bbl2xte2"
+  - name: "bbl2xte3"
+  - name: "blue-line"
+  - name: "boottime-line"
+  - name: "built-in"
+  - name: "commitreport"
+  - name: "coverity"
+  - name: "create_stats"
+  - name: "depbblhps2dt1ba"
+  - name: "depbblhps2dt1il"
+  - name: "depbblhps2dt1on"
+  - name: "depbblhps2dt1vb"
+  - name: "depbblhps2dt1y4"
+  - name: "depbblhps2dt24c"
+  - name: "depbblhps2vhi20"
+  - name: "depbblhps2vhst1"
+  - name: "depbblhps2vhst5"
+  - name: "depbblhps2vwsu1"
+  - name: "dev-fb-branch-checker"
+  - name: "dev_build_update"
+  - name: "docker-image-builder"
+  - name: "dockerfile_linter"
+  - name: "featurebranch"
+  - name: "freezconfig"
+  - name: "green-line"
+  - name: "int"
+  - name: "integratedin"
+  - name: "master"
+  - name: "master_rw"
+  - name: "monbuild"
+  - name: "orange-line"
+  - name: "ossbuild"
+  - name: "ossdevbuild"
+  - name: "ossprbuild"
+  - name: "osssubmit"
+  - name: "pullrequestbuild"
+  - name: "pullrequestchecker"
+  - name: "purple-line"
+  - name: "silverstation"
+  - name: "smoketest"
+  - name: "smoketest silverstation"
+  - name: "smoketest-generic"
+  - name: "statlogBLR"
+  - name: "stresstest"
+  - name: "test"
+  - name: "test_coverity"
+  - name: "teststation-hemoapp"
+  - name: "tfssearch"
+  - name: "toolbuild"
+  - name: "yy271675"
+  labelString: "smoketest"
+  markupFormatter: "plainText"
+  mode: NORMAL
+  myViewsTabBar: "standard"
+  nodeMonitors:
+  - "architecture"
+  - "clock"
+  - diskSpace:
+      freeSpaceThreshold: "1GB"
+      freeSpaceWarningThreshold: "2GB"
+  - "swapSpace"
+  - tmpSpace:
+      freeSpaceThreshold: "1GB"
+      freeSpaceWarningThreshold: "2GB"
+  - "responseTime"
+  nodes:
+  - permanent:
+      labelString: "int monbuild coverity"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/tfssys/jenkins_work/"
+      name: "bbl2xb04"
+      nodeDescription: "Buildmaschine CI/CD Team"
+      remoteFS: "/home/tfssys/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "tfssearch"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/tfssys/jenkins_work2/"
+      name: "bbl2xb04_AzureDevops"
+      nodeDescription: "Buildmaschine CI/CD Team - Tasks for TFSsearch (FDA Submission)"
+      numExecutors: 4
+      remoteFS: "/home/tfssys/jenkins_work2"
+      retentionStrategy:
+        demand:
+          idleDelay: 1
+          inDemandDelay: 0
+  - permanent:
+      labelString: "int coverity monbuild"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/tfssys/jenkins_work/"
+      name: "bbl2xb05"
+      nodeDescription: "Buildmaschine CI/CD Team"
+      remoteFS: "/home/tfssys/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "osssubmit"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      mode: EXCLUSIVE
+      name: "bbl2xbm1"
+      nodeDescription: "OSS Build machine contact Julian Haller"
+      numExecutors: 4
+      remoteFS: "/home/tfssys/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "ossbuild _ossprbuild ossdevbuild monbuild pullrequestbuild coverity\
+        \ osssubmit"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      name: "bbl2xbm2"
+      nodeDescription: "OSS Build machine contact Julian Haller"
+      numExecutors: 3
+      remoteFS: "/home/tfssys/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "ossprbuild osssubmit"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      name: "bbl2xbm2_ramdisk"
+      nodeDescription: "OSS Ramdisk build machine contact Julian Haller"
+      remoteFS: "/home/tfssys/jenkins_ramdisk_work"
+      retentionStrategy: "always"
+  - permanent:
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      name: "bbl2xbm3"
+      nodeDescription: "Misc Server contact Julian Haller"
+      numExecutors: 3
+      remoteFS: "/home/ossteam/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "monbuild toolbuild _coverity pullrequestbuild"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/tfssys/jenkins_work/workdir"
+      name: "bbl2xeno"
+      remoteFS: "/home/tfssys/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "docker-image-builder dockerfile_linter"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/tfssys/jenkins_work/workdir"
+      name: "bbl2xmen"
+      remoteFS: "/home/tfssys/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      name: "bbl2xpe1"
+      nodeDescription: "Penguins main labgrid machine contact Julian Haller"
+      remoteFS: "/home/ossteam/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "tfssearch"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/tfssys/jenkins_work"
+      name: "bbl2xr02"
+      nodeDescription: "Buildmaschine CI/CD Team - Tasks for TFSsearch (FDA Submission)"
+      numExecutors: 6
+      remoteFS: "/home/tfssys/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "int coverity monbuild"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/tfssys/jenkins_work/workdir"
+      name: "bbl2xr06"
+      nodeDescription: "Buildmaschine CI/CD Team"
+      remoteFS: "/home/tfssys/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "int __coverity pullrequestbuild monbuild"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/tfssys/jenkins_work/workdir"
+      name: "bbl2xr07"
+      nodeDescription: "Buildmaschine CI/CD Team"
+      remoteFS: "/home/tfssys/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "pullrequestbuild monbuild coverity int"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/tfssys/jenkins_work/workdir"
+      name: "bbl2xr08"
+      remoteFS: "/home/tfssys/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "smoketest master"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/tfssys/jenkins_work"
+      name: "bbl2xr09"
+      numExecutors: 2
+      remoteFS: "/home/tfssys/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "master_rw freezconfig"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/tfssysrw/jenkins_work"
+      name: "bbl2xr09_tfssysrw"
+      numExecutors: 2
+      remoteFS: "/home/tfssysrw/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "pullrequestchecker create_stats dev_build_update commitreport\
+        \ featurebranch ansible"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/tfssys/jenkins_work/workdir"
+      name: "bbl2xr65"
+      numExecutors: 4
+      remoteFS: "/home/tfssys/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "dev-fb-branch-checker"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/tfssysrw/jenkins_work/workdir"
+      name: "bbl2xr65_tfssysrw"
+      numExecutors: 4
+      remoteFS: "/home/tfssysrw/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      name: "bbl2xr83"
+      nodeDescription: "Penguins developer labgrid machine contact Julian Haller"
+      numExecutors: 2
+      remoteFS: "/home/ossteam/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "int monbuild coverity"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/tfssys/jenkins_work/"
+      name: "bbl2xte2"
+      nodeDescription: "Buildmaschine CI/CD Team"
+      remoteFS: "/home/tfssys/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "int monbuild coverity"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/tfssys/jenkins_work/"
+      name: "bbl2xte3"
+      nodeDescription: "Buildmaschine CI/CD Team"
+      remoteFS: "/home/tfssys/jenkins_work"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "stresstest blue-line"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      name: "depbblhps2dt1ba"
+      nodeDescription: "Stresstest agent"
+      nodeProperties:
+      - toolLocation:
+          locations:
+          - home: "C:\\Program Files\\Git\\bin\\git"
+            key: "hudson.plugins.git.GitTool$DescriptorImpl@Default"
+      remoteFS: "c:\\jenkins"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "smoketest silverstation 'smoketest silverstation'"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      name: "depbblhps2dt1il"
+      nodeDescription: "Smoketest silver station"
+      nodeProperties:
+      - toolLocation:
+          locations:
+          - home: "C:\\Program Files\\Git\\bin\\git"
+            key: "hudson.plugins.git.GitTool$DescriptorImpl@Default"
+      remoteFS: "c:\\jenkins"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "smoketest-generic blue-line smoketest"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      name: "depbblhps2dt1on"
+      nodeDescription: "Smoketest Blueline"
+      nodeProperties:
+      - toolLocation:
+          locations:
+          - home: "C:\\Program Files\\Git\\bin\\git"
+            key: "hudson.plugins.git.GitTool$DescriptorImpl@Default"
+      remoteFS: "c:\\jenkins"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "boottime-line stresstest"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      name: "depbblhps2dt1vb"
+      nodeDescription: "Boottime measurement"
+      nodeProperties:
+      - toolLocation:
+          locations:
+          - home: "C:\\Program Files\\Git\\bin\\git"
+            key: "hudson.plugins.git.GitTool$DescriptorImpl@Default"
+      remoteFS: "c:\\Jenkins"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "stresstest green-line"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      name: "depbblhps2dt1y4"
+      nodeDescription: "Stresstest agent"
+      nodeProperties:
+      - toolLocation:
+          locations:
+          - home: "C:\\Program Files\\Git\\bin\\git"
+            key: "hudson.plugins.git.GitTool$DescriptorImpl@Default"
+      remoteFS: "c:\\jenkins"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "smoketest-generic green-line smoketest"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      name: "depbblhps2dt24c"
+      nodeDescription: "Smoketest Greenline"
+      nodeProperties:
+      - toolLocation:
+          locations:
+          - home: "C:\\Program Files\\Git\\bin\\git"
+            key: "hudson.plugins.git.GitTool$DescriptorImpl@Default"
+      remoteFS: "c:\\jenkins"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "integratedin FBrights statlogBLR"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      name: "depbblhps2vhi20"
+      nodeDescription: "SupportTool DB update"
+      nodeProperties:
+      - toolLocation:
+          locations:
+          - home: "C:\\Program Files\\Git\\bin\\git"
+            key: "hudson.plugins.git.GitTool$DescriptorImpl@Default"
+      remoteFS: "c:\\jenkins"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "stresstest orange-line"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      name: "depbblhps2vhst1"
+      nodeDescription: "Stresstest agent"
+      nodeProperties:
+      - toolLocation:
+          locations:
+          - home: "C:\\Program Files\\Git\\bin\\git"
+            key: "hudson.plugins.git.GitTool$DescriptorImpl@Default"
+      remoteFS: "c:\\jenkins"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "purple-line smoketest stresstest"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      name: "depbblhps2vhst5"
+      nodeDescription: "Smoketest Stresstest purple line"
+      nodeProperties:
+      - toolLocation:
+          locations:
+          - home: "C:\\Program Files\\Git\\bin\\git"
+            key: "hudson.plugins.git.GitTool$DescriptorImpl@Default"
+      remoteFS: "c:\\jenkins"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "teststation-hemoapp"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+      name: "depbblhps2vwsu1"
+      nodeDescription: "Smoketest "
+      nodeProperties:
+      - toolLocation:
+          locations:
+          - home: "C:\\Program Files\\Git\\bin\\git"
+            key: "hudson.plugins.git.GitTool$DescriptorImpl@Default"
+      remoteFS: "c:\\jenkins"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "test"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "/home/ntabassu/jenkins_node"
+      name: "test_coverity"
+      nodeDescription: "test"
+      remoteFS: "//home/ntabassu/jenkins_node"
+      retentionStrategy: "always"
+  - permanent:
+      labelString: "MeasBLR_Simulator"
+      launcher:
+        inbound:
+          workDirSettings:
+            disabled: false
+            failIfWorkDirIsMissing: false
+            internalDir: "remoting"
+            workDirPath: "c:\\jenkins"
+      name: "yy271675"
+      nodeDescription: "Buildmaschine CI/CD Team Bangelore - Calimero"
+      nodeProperties:
+      - toolLocation:
+          locations:
+          - home: "C:\\Program Files\\Git\\bin\\git"
+            key: "hudson.plugins.git.GitTool$DescriptorImpl@Default"
+      numExecutors: 2
+      remoteFS: "c:\\jenkins"
+      retentionStrategy: "always"
+  numExecutors: 0
+  primaryView:
+    all:
+      name: "all"
+  projectNamingStrategy: "standard"
+  proxy:
+    name: "umbrella.philips.com"
+    noProxyHost: "localhost,127.0.0.1,localaddress,.philips.com,tfs.bbl.ms.philips.com"
+    port: 443
+    secretPassword: "{AQAAABAAAAAQjT/K9OUkFmcRPr5JisDixF/lY++ArnTl4wpqM6ZnSjQ=}"
+    testUrl: "philips.com"
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+  securityRealm:
+    local:
+      allowsSignup: false
+      enableCaptcha: false
+      users:
+      - id: "adinath.mhatre"
+        name: "adinath.mhatre"
+        properties:
+        - "apiToken"
+        - "consoleUrlProvider"
+        - "favorite"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - favoriting:
+            autofavoriteEnabled: true
+        - mailer:
+            emailAddress: "adinath.mhatre@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+        - myView:
+            primaryViewName: "all"
+      - id: "annakamm"
+        name: "Anna Kamm"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "anna.maria.kamm@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "annam"
+        name: "Anna Maria Kamm"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "anna.maria.kamm@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "axel_bauer"
+        name: "Axel Bauer"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "axel.bauer@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "fabian.gottstein"
+        name: "fabian.gottstein"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "fabian.gottstein@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "felix.ruess"
+        name: "felix.ruess"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "felix.ruess@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "guido.sanchez"
+        name: "Guido.Sanchez"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "Guido.Sanchez@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "guntgrau"
+        name: "Gunter Grau"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "gunter.grau@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "harshaldhruvkumar.gohel"
+        name: "harshaldhruvkumar.gohel"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "harshaldhruvkumar.gohel@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "ibtsahaq"
+        name: "Ibtsam Haq"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "ibtsam.haq@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "jbenitez"
+        name: "Jesus Benitez"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "jesus.benitez@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "jensmein"
+        name: "jensmein"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "Jens.Meinert@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "jhaller"
+        name: "Julian Haller"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "julian.haller@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "johwiens"
+        name: "Johann Wiens"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "johann.wiens@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "manjunath.ks"
+        name: "Manjunath.KS"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "Manjunath.KS@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "marko.beelmann"
+        name: "marko.beelmann"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "marko.beelmann@gmail.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "mbeelman"
+        name: "Marko Beelmann"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "marko.beelmann@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "meplaner"
+        name: "Melanie Planer"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "melanie.planer@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "mikeruf"
+        name: "Mike Ruf"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "mike.ruf@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "mkircher"
+        name: "Michael Kircher"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "michael.kircher@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "mohammed.rizwan"
+        name: "mohammed.rizwan"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "mohammed.rizwan@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "muthukumar.pandianayagam"
+        name: "muthukumar.pandianayagam"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "muthukumar.pandianayagam@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "nicboehr"
+        name: "Nico Boehr"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "nico.boehr@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "noufal.p"
+        name: "noufal.p"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "noufal.p@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "ntabassu"
+        name: "Nuzat Tabassum"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "nuzat.tabassum@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "olga_chaula"
+        name: "Olga Chaula"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "olga.chaula@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "pavansha"
+        name: "Pavan Shankara"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "pavan.shankara@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "qinzhili"
+        name: "Liu, Qinzhi"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "qinzhi.liu@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "rahul.kumar_3"
+        name: "rahul.kumar_3"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "rahul.kumar_3@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "richard_koopmann"
+        name: "Richard"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "richard.koopmann@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "rkoopman"
+        name: "Richard"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "richard@test.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "rkoopmann"
+        name: "Richard"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "richard.koopmann@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "rschl"
+        name: "Rainer Schluess"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "rainer.schluess@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "sebastian.hebler"
+        name: "sebastian.hebler"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "sebastian.hebler@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "sehebler"
+        name: "sehebler"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "sehebler@bbl2xrmk.bbl.ms.philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "serlache"
+        name: "Sascha Erlacher"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "sascha.erlacher@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "seschall"
+        name: "Sebastian Schall"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "sebastian.schall@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "shifaali"
+        name: "Shifa Ali"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "shifa.ali@philips.com"
+      - id: "test"
+        name: "test"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "ftest@gmail.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "tfssys"
+        name: "tfssys"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "integration@hermes.bbl.ms.philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "toufic_ayoub"
+        name: "toufic ayoub"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "toufic.ayoub@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "treinart"
+        name: "Tom Reinartz"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "tom.reinartz@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "tschaedl"
+        name: "Thomas Buchholtz"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "thomas.buchholtz@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "ukuppusa"
+        name: "Utishsethuraman Kuppusamy"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "utishsethuraman.kuppusamy@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "upesagam"
+        name: "Upendra Sagam"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "upendra.sagam@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "vivekv"
+        name: "Vivek V"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "vivek.v_1@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+      - id: "womarkus"
+        name: "Wolfgang Markus"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "consoleUrlProvider"
+        - "favorite"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "Wolfgang.Markus@philips.com"
+        - timezone:
+            timeZoneName: "Europe/Berlin"
+  slaveAgentPort: 50000
+  systemMessage: "Jenkins Server for IntelliVue CI/CD Team testing testing....."
+  updateCenter:
+    sites:
+    - id: "default"
+      url: "http://updates.jenkins-ci.org/update-center.json"
+  views:
+  - buildMonitor:
+      config:
+        displayBadgesFrom: "getLastBuild"
+        displayCommitters: false
+        order: "byName"
+      jobNames:
+      - "Monitor/P.01.03/Monitor_Coverity_P.01.03"
+      - "Monitor_CommitReport"
+      - "Monitor_Coverity_M.04.00"
+      - "Monitor_Coverity_N.00.00"
+      - "Monitor_Coverity_R.00.00"
+      - "Monitor_Coverity_R.10.00"
+      - "Monitor_Coverity_R.20.00"
+      name: "Analysis"
+      title: "Analysis"
+  - buildMonitor:
+      config:
+        displayBadgesFrom: "getLastBuild"
+        displayCommitters: false
+        order: "byName"
+      jobNames:
+      - "IntelliVue_OSS"
+      - "Monitor_Build_R.00.00"
+      - "Monitor_Build_R.10.00"
+      - "Monitor_Build_R.20.00"
+      - "OSS_Build_N.00"
+      - "OSS_Build_N.01"
+      - "Update Utility"
+      name: "Build Monitor View"
+      title: "Build Monitor View"
+  - dashboard:
+      bottomPortlets:
+      - hudsonStdJobsPortlet:
+          name: "Jenkins jobs list"
+      columns:
+      - "status"
+      - "jobName"
+      - "lastSuccess"
+      - "lastFailure"
+      - "lastDuration"
+      jobNames:
+      - "Monitor/P.01.03/Monitor_Build_P.01.03"
+      - "Monitor/P.01.03/Monitor_Coverity_P.01.03"
+      - "Monitor/P.09.00/Monitor_Build_P.09.00"
+      - "Monitor/R.00.00"
+      - "Monitor/Submit_NLS"
+      - "Monitor/Submit_OSS"
+      - "Monitor_Build_M.04.00"
+      - "Monitor_Build_R.00.00"
+      - "Monitor_Build_R.00.00-dev"
+      - "Monitor_CommitReport"
+      - "Monitor_Coverity_R.00.00"
+      - "Monitor_Freigabe"
+      - "Monitor_Smoketest"
+      - "Monitor_Stresstest"
+      - "Monitor_Test_Boottime"
+      - "Monitor_Upgrade"
+      - "cronjobs/Cleanup developer builds"
+      - "cronjobs/Cleanup intlogs"
+      - "cronjobs/Monitor_Stats_update"
+      - "infrastructure/dhcpd_update"
+      - "x_FeatureBuild"
+      leftPortlets:
+      - latestBuilds:
+          name: "Latest builds"
+          numBuilds: 10
+      name: "CurrentBuilds"
+      recurse: true
+      topPortlets:
+      - unstableJobsPortlet:
+          name: "Unstable Jobs"
+          recurse: false
+          showOnlyFailedJobs: false
+      - jobsPortlet:
+          columnCount: 3
+          fillColumnFirst: false
+          name: "Jobs Grid"
+      - statBuilds:
+          name: "Build statistics"
+      - statSlaves:
+          name: "Agent statistics"
+  - list:
+      columns:
+      - "status"
+      - "weather"
+      - "jobName"
+      - "lastSuccess"
+      - "lastFailure"
+      - "lastDuration"
+      - "buildButton"
+      jobNames:
+      - "Build_Development/x_Developer_Build_Feature_Branch"
+      - "Monitor/Module_Pullrequest_Build"
+      - "Monitor/P.00.00/Monitor_Build_P.00.00-dev"
+      - "Monitor_Build_R.00.00-dev"
+      - "Monitor_Build_R.10.00-dev"
+      - "Monitor_Build_R.20.00-dev"
+      - "abc"
+      name: "Developer Builds"
+      recurse: true
+  - dashboard:
+      columns:
+      - "status"
+      - "weather"
+      - "jobName"
+      - "lastSuccess"
+      - "lastFailure"
+      - "lastDuration"
+      - "buildButton"
+      - "favoriteColumn"
+      jobNames:
+      - "Monitor/P.00.00/Monitor_Build_P.00.00"
+      - "Monitor/P.00.00/Monitor_Build_P.00.00-dev"
+      - "Monitor_Build_M.04.00"
+      - "Monitor_Freigabe"
+      - "Obsolete/Monitor_Build_N.00.04"
+      - "Obsolete/Monitor_Build_N.01.04"
+      leftPortlets:
+      - jobsPortlet:
+          columnCount: 1
+          fillColumnFirst: false
+          name: "Jobs Grid"
+      - statBuilds:
+          name: "Build statistics"
+      name: "IntelliVue Monitor"
+      topPortlets:
+      - hudsonStdJobsPortlet:
+          name: "Jenkins jobs list"
+  - buildMonitor:
+      config:
+        displayBadgesFrom: "getLastBuild"
+        displayCommitters: false
+        order: "byDisplayName"
+      jobNames:
+      - "IntelliVue_OSS/Automerge/Linux_subsystem_automerge"
+      - "IntelliVue_OSS/Build/IntelliVue%2FR18%2FCommon"
+      - "IntelliVue_OSS/HW Test/master_branch"
+      - "IntelliVue_OSS/Revision_Update/IntelliVue%2FR18%2FCommon"
+      - "IntelliVue_OSS/Testing/coreinfra-labgrid/main"
+      name: "Penguins Pipeline Monitor"
+      recurse: true
+      title: "Penguins Pipeline Monitor"
+  - list:
+      columns:
+      - "status"
+      - "weather"
+      - "jobName"
+      - "lastSuccess"
+      - "lastFailure"
+      - "lastDuration"
+      - "buildButton"
+      - "favoriteColumn"
+      name: "Synergy"
+      recurse: true
+  - all:
+      name: "all"
+  - buildMonitor:
+      config:
+        displayBadgesFrom: "getLastBuild"
+        displayCommitters: false
+        order: "byName"
+      jobNames:
+      - "Build_Development/Monitor_StresstestWithUpgrade"
+      - "Monitor"
+      - "Monitor/P.00.00/Monitor_Build_P.00.00"
+      - "Monitor/P.00.00/Monitor_Build_P.00.00-dev"
+      - "Monitor/P.00.00/Monitor_Coverity_P.00.00"
+      - "Monitor/Submit_OSS"
+      - "Monitor_Build_M.04.00"
+      - "Monitor_Coverity_M.04.00"
+      - "Monitor_Coverity_N.00.00"
+      - "Monitor_Freigabe"
+      - "Monitor_Stresstest"
+      - "Monitor_Test_Boottime"
+      - "OSS_Build_N.00"
+      - "OSS_Build_N.01"
+      - "Obsolete/Monitor_Build_N.00.04"
+      - "Obsolete/Monitor_Build_N.01.04"
+      - "SharedArtefacts_B.00.00"
+      - "Update Utility"
+      - "cronjobs/Check monitor dev-branches"
+      - "cronjobs/Cleanup developer builds"
+      - "cronjobs/Monitor_Stats_update"
+      name: "Übersicht"
+      recurse: true
+      title: "Übersicht"
+  viewsTabBar: "standard"
+globalCredentialsConfiguration:
+  configuration:
+    providerFilter: "none"
+    typeFilter: "none"
+appearance:
+  locale:
+    ignoreAcceptLanguage: false
+    systemLocale: "USE_BROWSER_LOCALE"
+  prism:
+    theme: PRISM
+security:
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  cps:
+    hideSandbox: false
+  gitHooks:
+    allowedOnAgents: false
+    allowedOnController: false
+  gitHostKeyVerificationConfiguration:
+    sshHostKeyVerificationStrategy:
+      manuallyProvidedKeyVerificationStrategy:
+        approvedHostKeys: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKWhwpouuXwJqbTK9eId8ODAM1/ad5KOSTN8o9hXJLjO"
+  globalJobDslSecurityConfiguration:
+    useScriptSecurity: true
+  sSHD:
+    port: -1
+  scriptApproval:
+    approvedSignatures:
+    - "method com.cloudbees.plugins.credentials.common.IdCredentials getId"
+    - "method java.io.File exists"
+    - "method java.io.File getParentFile"
+    - "staticMethod com.cloudbees.plugins.credentials.CredentialsProvider lookupCredentials\
+      \ java.lang.Class hudson.model.ItemGroup org.acegisecurity.Authentication java.util.List"
+    - "staticMethod com.cloudbees.plugins.credentials.SystemCredentialsProvider getInstance"
+    - "staticMethod com.cloudbees.plugins.credentials.domains.Domain global"
+    - "staticMethod org.codehaus.groovy.runtime.DefaultGroovyMethods getMetaClass\
+      \ java.lang.Object"
+    - "staticMethod org.codehaus.groovy.runtime.DefaultGroovyMethods withWriter java.io.File\
+      \ groovy.lang.Closure"
+unclassified:
+  artifactoryBuilder:
+    jfrogInstances:
+    - artifactoryUrl: "https://artifactory-ehv.ta.philips.com/artifactory"
+      bypassProxy: true
+      connectionRetry: 3
+      deployerCredentialsConfig:
+        overridingCredentials: false
+        username: "****"
+      deploymentThreads: 3
+      instanceId: "ArtifactoryTA"
+      timeout: 300
+    jfrogPipelinesServer:
+      bypassProxy: false
+      connectionRetries: 3
+      credentialsConfig:
+        ignoreCredentialPluginDisabled: true
+        overridingCredentials: false
+        username: "****"
+      timeout: 300
+    useCredentialsPlugin: false
+  bitbucketEndpointConfiguration:
+    endpoints:
+    - bitbucketCloudEndpoint:
+        enableCache: false
+        manageHooks: false
+        repositoriesCacheDuration: 0
+        teamCacheDuration: 0
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+  buildMonitorView:
+    permissionToCollectAnonymousUsageStatistics: true
+  buildStepOperation:
+    enabled: false
+  defaultFolderConfiguration:
+    healthMetrics:
+    - worstChildHealthMetric:
+        recursive: true
+  diskUsageProjectActionFactory:
+    checkWorkspaceOnAgent: false
+    historyLength: 183
+    showGraph: true
+    timeoutWorkspace: 5
+  email-ext:
+    adminRequiredForTemplateTesting: false
+    allowUnregisteredEnabled: true
+    charset: "UTF-8"
+    debugMode: false
+    defaultBody: |-
+      $PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:
+
+      Check console output at $BUILD_URL to view the results.
+    defaultContentType: "text/plain"
+    defaultSubject: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!"
+    defaultTriggerIds:
+    - "hudson.plugins.emailext.plugins.trigger.FailureTrigger"
+    - "abj"
+    mailAccount:
+      smtpHost: "mail.bbl.ms.philips.com."
+    maxAttachmentSize: -1
+    maxAttachmentSizeMb: -1
+    precedenceBulk: false
+    watchingEnabled: true
+  enrichedSummaryConfig:
+    enrichedSummaryEnabled: false
+    httpClientDelayBetweenRetriesInSeconds: 1
+    httpClientMaxRetries: 3
+    httpClientTimeoutInSeconds: 1
+  fingerprints:
+    fingerprintCleanupDisabled: false
+    storage: "file"
+  gitHubConfiguration:
+    apiRateLimitChecker: ThrottleForNormalize
+  gitHubPluginConfig:
+    hookUrl: "http://bbl2xr00.bbl.ms.philips.com:8080/github-webhook/"
+  globalLibraries:
+    libraries:
+    - defaultVersion: "master"
+      name: "mon-build-workflow"
+      retriever:
+        modernSCM:
+          scm:
+            git:
+              credentialsId: "tfssys"
+              id: "18aecb5b-5390-4d0c-bf50-f0da7d7e7960"
+              remote: "https://tfs.bbl.ms.philips.com/tfs/BBN%20Solutions/PM/_git/antares-build-workflow"
+              traits:
+              - "gitBranchDiscovery"
+    - defaultVersion: "mkircher/devops"
+      name: "jenkins-buildscripts"
+      retriever:
+        modernSCM:
+          scm:
+            git:
+              credentialsId: "tfssys"
+              id: "1b6fc225-4eb5-4252-b960-c76411f52e32"
+              remote: "https://tfs.bbl.ms.philips.com/tfs/BBN%20Tooling/Git/_git/jenkins-buildscripts"
+              traits:
+              - "gitBranchDiscovery"
+    - defaultVersion: "IntelliVue/R18/Common"
+      name: "oss-build-workflow"
+      retriever:
+        modernSCM:
+          scm:
+            git:
+              credentialsId: "tfssys"
+              id: "2164457f-ed26-4047-841d-8a17d4b98c61"
+              remote: "https://tfs.bbl.ms.philips.com/tfs/BBN%20Solutions/PM/_git/synergy-oss-buildtools"
+              traits:
+              - "gitBranchDiscovery"
+  globalTimeOutConfiguration:
+    operations:
+    - "abortOperation"
+    overwriteable: false
+  injectionConfig:
+    allowUntrusted: false
+    checkForBuildAgentErrors: false
+    enabled: false
+    enforceUrl: false
+    gradleCaptureTaskInputFiles: true
+    mavenCaptureGoalInputFiles: true
+  junitTestResultStorage:
+    storage: "file"
+  location:
+    adminAddress: "integration@hermes.bbl.ms.philips.com"
+    url: "http://bbl2xr00.bbl.ms.philips.com:8080/"
+  mailer:
+    charset: "UTF-8"
+    smtpHost: "mail.bbl.ms.philips.com."
+    useSsl: false
+    useTls: false
+  mavenModuleSet:
+    localRepository: "default"
+  pollSCM:
+    pollingThreadCount: 10
+  priorityConfiguration:
+    jobGroups:
+    - description: "Build Pipeline"
+      jobGroupStrategy:
+        viewBased:
+          viewName: "Build Monitor View"
+      priority: 1
+    - description: "Developer Builds"
+      id: 1
+      jobGroupStrategy:
+        viewBased:
+          viewName: "Developer Builds"
+      priority: 3
+    - description: "Analysis"
+      id: 2
+      jobGroupStrategy:
+        viewBased:
+          viewName: "Analysis"
+      priority: 5
+  prioritySorterConfiguration:
+    onlyAdminsMayEditPriorityConfiguration: false
+    strategy:
+      absoluteStrategy:
+        defaultPriority: 3
+        numberOfPriorities: 5
+  scmGit:
+    addGitTagAction: false
+    allowSecondFetch: false
+    createAccountBasedOnEmail: false
+    disableGitToolChooser: false
+    hideCredentials: false
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: false
+  teamPluginGlobalConfig:
+    configFolderPerNode: false
+    enableTeamPushTriggerForAllJobs: false
+    enableTeamStatusForAllJobs: false
+    userAccountMapper: "domain"
+  timestamper:
+    allPipelines: true
+    elapsedTimeFormat: "'<b>'HH:mm:ss.S'</b> '"
+    systemTimeFormat: "'<b>'HH:mm:ss'</b> '"
+  warningsParsers:
+    consoleLogScanningPermitted: false
+  xFrameFilterPageDecorator:
+    options: "SAMEORIGIN"
+    sendHeader: true
+tool:
+  git:
+    installations:
+    - home: "git"
+      name: "Default"
+  mavenGlobalConfig:
+    globalSettingsProvider: "standard"
+    settingsProvider: "standard"
